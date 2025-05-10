@@ -18,7 +18,7 @@ stopBtn.addEventListener('click', stopSounds);
 buttonsDiv.appendChild(stopBtn);
 
 function playSound(){
-	stopSound();
+	stopSounds();
 	const audio = new Audio(`sounds/${name}.mp3`);
 	audio.play();
 	window.currentAudi = audio;
