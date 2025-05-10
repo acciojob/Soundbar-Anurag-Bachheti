@@ -1,1 +1,7 @@
-//your JS code here. If required.
+let buttons = document.getElementById("btn");
+
+buttons.addEventListener("click", audioVideo());
+
+audioVideo(){
+	console.log(`audio,video`)
+}
