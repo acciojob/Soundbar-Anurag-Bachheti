@@ -1,0 +1,36 @@
+body {
+  background: #a259d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  background: #5e2b97;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #4a2177;
+}
+
+.stop {
+  background: #d13f3f;
+}
+
+.stop:hover {
+  background: #a32d2d;
+}
